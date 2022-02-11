@@ -11,7 +11,7 @@ int main() {
 		printf("Dòna la següent dada: ");
 		scanf("%f",&nou_valor);
 		suma=suma+nou_valor;
-		numero_repeticions=numero_repeticions+1;
+		numero_repeticions++;
 		printf("Vols continuar (s/n): ");
 		scanf("%s",&consulta); 
 	}
