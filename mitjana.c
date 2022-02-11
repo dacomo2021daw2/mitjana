@@ -2,7 +2,6 @@
 
 int main() {
 	float suma=0.0;
-	float mitjana;
 	float nou_valor=0.0;
 	int numero_repeticions=0;
 	char consulta='s';
@@ -15,7 +14,6 @@ int main() {
 		printf("Vols continuar (s/n): ");
 		scanf("%s",&consulta); 
 	}
-	mitjana=suma/numero_repeticions;
-	printf("La mitjana resultant és: %.2f\n",mitjana);	
+	printf("La mitjana resultant és: %.2f\n",suma/numero_repeticions);
 	return 0;
 }
